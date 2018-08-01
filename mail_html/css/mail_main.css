@@ -1,0 +1,13 @@
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.wrap {width: 720px; height: auto; margin: 0 auto; position:relative;}
+
+.top {width:720px; height: 127px; background:#0c4e9a;}
+.top_bar {width: 720px; height: 4px; background:#727682;}
+.top_tit {width:auto px; height: 80px; padding: -20px 0px; margin-top: 16px; margin-left:40px;}
+.top_tit .main {font-size:25px; color:#FFF600; font-weight: bold;}
+.top_tit .sub {font-size:18px; color: #FFFFFF; margin-top:14px; line-height: 1.4em;}
+
+.section {width: 720px; height:auto; border: 1px solid red; padding:55px 0;}

@@ -1,0 +1,43 @@
+/*공통부분*/
+* { margin: 0; padding: 0; }
+a { text-decoration: none;
+    cursor: pointer;
+    color:#424242;}  
+img { border: 0; } 
+
+/*미디어쿼리, 해상도 폭이 1024px보다 작아지면 
+@media(max-width:800px) {
+    display:none;
+}
+미디어 쿼리 이용해서 모바일버젼 적용시킬것*/
+
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+    width: 1024px;
+    height: 2800px;
+    margin: 0 auto;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.text_up {
+    width: 769px;
+    margin: 75px 0 0 128px;
+}
+.img {
+    width: 1024px;
+    height: auto;
+}
+.text_down {
+    width: 769px;
+    height: auto;
+    margin: 0 128px;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #6e6e6e;
+    margin-top: 30px;
+}
+.last_txt {
+    margin-left: 130px;
+}

@@ -1,6 +1,6 @@
 /*공통부분*/
 * { margin: 0; padding: 0; }
-a { text-decoration: none; }  
+a { text-decoration: none; cursor: pointer;}  
 img { border: 0; } 
 
 /*미디어쿼리, 해상도 폭이 1024px보다 작아지면 
@@ -64,15 +64,6 @@ body {
     display: grid;
     grid-template-columns: 160px 1fr;
     font-size: 30px;
-    color:#525252;
-}
-.index_con span {
-    font-size: 18px;
-    font-weight: 400;
-    display: block;
-    width: 250px;
-    line-height:1.8em;
-    margin-top: 60px;    
 }
 .web  {
     width: 160px;
@@ -91,3 +82,31 @@ body {
 	line-height: 1.4em;
 	font-weight: 100; 
 }
+.design_txt {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    width: 250px;
+    line-height:1.8em;
+    margin-top: 60px;    
+}
+.design_txt a {
+    color: #636363;
+}
+.design_txt .comming {
+    color: white;
+}
+.story .story_txt {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    width: 250px;
+    line-height:1.8em;
+    margin-top: 60px;    
+}
+.story_txt a  {
+    color: #636363;
+}
+
+
+
